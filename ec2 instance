@@ -1,0 +1,7 @@
+- EC2 Instance start web application
+
+sudo yum update -y - update package
+sudo yum install httpd -y - this is web server 
+sudo systemctl start httpd - turn on the web server
+sudo systemctl enable httpd - automatically start when server reboot
+sudo nano /var/www/html/index.html - write html code here
