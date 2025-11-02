@@ -19,6 +19,27 @@
 
 
 
+Give permission for folder:
+
+if you just want to let Nginx or Apache serve your files:
+
+For Nginx:
+sudo chown -R nginx:nginx /var/www/my-app1
+sudo chmod -R 755 /var/www/my-app1
+
+For Apache:
+sudo chown -R apache:apache /var/www/my-app1
+sudo chmod -R 755 /var/www/my-app1
+
+
+755 → full access for owner, read/execute for others
+
+chown → changes ownership to the web server user
+
+verify
+After applying permissions:
+
+cmd:- ls -ld my-app1
 
 
 
