@@ -1,0 +1,7 @@
+FSX 
+--------
+after create instance 
+sudo mkdir /fsx
+cd /mnt/fsx - it go to fsx directory
+df -h -see mount instance
+sudo touch testfile.txt - create a file
