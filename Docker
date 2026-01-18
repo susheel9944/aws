@@ -1,0 +1,29 @@
+Docker
+====================
+How to install docker
+sudo apt install Docker.io -y
+
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+
+Deploye conatiner /image- using nginx webserver
+sudo docker run -itd --name webserver nginx
+
+show docker container is deploye
+sudo docker ps
+
+stop container
+-------------
+sudo docker stop webserver
+
+Port Mapping container
+--------------
+sudo docker run -itd -p 80:80 --name webserver nginx
+
+
+connect to the container
+-------
+sudo docker exec -it webserver bash
+
+
