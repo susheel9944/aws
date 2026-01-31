@@ -70,3 +70,10 @@ sudo docker image ls
 How to see Meta Data
 sudo docker inspect webservernew
 
+--------------
+login into docker container use below cmd
+sudo docker login 
+copy the url and past the pass code which is show at run above command
+
+
+
