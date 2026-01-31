@@ -75,5 +75,12 @@ login into docker container use below cmd
 sudo docker login 
 copy the url and past the pass code which is show at run above command
 
+-------------------
+Deploye Docker image repository in docker hub
+sudo docker image ls
+sudo docker tag my-app susheel4me/mywebappkaler
+sudo docker push susheel4me/mywebappkaler - push docker image
+
+
 
 
