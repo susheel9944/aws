@@ -60,3 +60,8 @@ Make a container and deploye
 sudo docker image ls
 sudo docker run -itd -p 8080:80 --name mywebapp my-app
 
+
+--------------------
+How to see Meta Data
+sudo docker inspect webservernew
+
