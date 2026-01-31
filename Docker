@@ -61,6 +61,11 @@ sudo docker image ls
 sudo docker run -itd -p 8080:80 --name mywebapp my-app
 
 
+-----------------
+show list of conatiner image
+sudo docker image ls
+
+
 --------------------
 How to see Meta Data
 sudo docker inspect webservernew
