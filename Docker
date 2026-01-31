@@ -48,3 +48,6 @@ Docker command tested
     7  sudo docker run -itd -p 80:80 --name webserver nginx
     8  sudo doker ps
     9  sudo docker exec -it webserver bash
+    10 apt update
+    11 apt install -y git
+
