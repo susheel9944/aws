@@ -54,3 +54,9 @@ Docker command tested
     13 go to folder where we have clone
     14 mv * /usr/share/nginx/html/
 
+
+-----------------
+Make a container and deploye
+sudo docker image ls
+sudo docker run -itd -p 8080:80 --name mywebapp my-app
+
