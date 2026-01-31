@@ -50,4 +50,7 @@ Docker command tested
     9  sudo docker exec -it webserver bash
     10 apt update
     11 apt install -y git
+    12 git clone "git url"
+    13 go to folder where we have clone
+    14 mv * /usr/share/nginx/html/
 
