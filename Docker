@@ -81,6 +81,11 @@ sudo docker image ls
 sudo docker tag my-app susheel4me/mywebappkaler
 sudo docker push susheel4me/mywebappkaler - push docker image
 
+---------------
+show all image in docker
+sudo docker ps -a
+
+
 
 
 
