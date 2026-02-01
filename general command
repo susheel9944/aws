@@ -1,0 +1,3 @@
+How to check operating system
+---------------
+  sudo cat /etc/os-release
