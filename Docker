@@ -90,3 +90,18 @@ sudo docker ps -a
 pull the image from docker hub
 sudo docker run -itd --name mywebapp -p 80:80 susheel4me/mywebappkaler
 
+
+===================
+DOCKER FILE
+
+---------
+docker file create
+sudo vim dockerfile
+write in editor below command
+
+ROM nginx
+
+RUN apt update -y && apt install git -y
+
+RUN git clone https://github.com/devopstraining99/demo-app.git && mv demo-app/* /usr/share/nginx/html/
+
