@@ -86,6 +86,7 @@ show all image in docker
 sudo docker ps -a
 
 
-
-
+------------
+pull the image from docker hub
+sudo docker run -itd --name mywebapp -p 80:80 susheel4me/mywebappkaler
 
