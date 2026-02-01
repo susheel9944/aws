@@ -105,3 +105,7 @@ RUN apt update -y && apt install git -y
 
 RUN git clone https://github.com/devopstraining99/demo-app.git && mv demo-app/* /usr/share/nginx/html/
 
+--------------
+run command docker image create and nginx 
+sudo docker build -t app .
+
