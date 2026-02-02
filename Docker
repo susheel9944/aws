@@ -109,3 +109,25 @@ RUN git clone https://github.com/devopstraining99/demo-app.git && mv demo-app/* 
 run command docker image create and nginx 
 sudo docker build -t app .
 
+
+
+
+
+
+
+====================
+Linux os and mac os for react js aap
+
+docker pull susheel4me/dashboarddata:01
+docker buildx create --use
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  -t susheel4me/dashboarddata:01 \
+  --push .
+
+----------
+Confirm image architecture
+docker buildx imagetools inspect susheel4me/dashboarddata:01
+
+
+
